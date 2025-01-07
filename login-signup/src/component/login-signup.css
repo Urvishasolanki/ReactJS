@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.signup{
+    border: 1px solid palevioletred;
+    height: auto;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.signup h1{
+    padding-top: 20px;
+    color: blue;
+    padding-bottom: 20px;
+}
+.signup input{
+
+    height: 40px;
+    width: 100%;
+    margin-top:25px;
+    border:2px solid pink;
+    border-radius: 10px;
+}
+.signup input::placeholder{
+    text-align: center;
+}
+.signup input:hover{
+    border-radius: 10px;
+}
+.signup #signbtn{
+    width: 90px;
+    border-radius: 10px;
+}
+.signup #signbtn:hover{
+   background-color: aquamarine;
+   color: palevioletred;
+   border: none;
+   outline: none;
+}
+.signup p  {
+    margin: 30px;
+    cursor: pointer;
+    color: green;
+    font-size: 20px;
+}
+
+.login{
+    border: 1px solid palevioletred;
+    height: 380px   ;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.login h1{
+    padding-top: 20px;
+    color: blue;
+    padding-bottom: 20px;
+}
+.login input{
+
+    height: 40px;
+    width: 100%;
+    margin-top:25px;
+    border:2px solid pink;
+}
+.login input::placeholder{
+    text-align: center;
+}
+.login p  {
+    margin: 30px;
+    cursor: pointer;
+    color: green;
+    font-size: 20px;
+}
+.login #loginbtn{
+    width: 90px;
+    border-radius: 10px;
+}
+.login #loginbtn:hover{
+    background-color: aquamarine;
+    color: palevioletred;
+    border: none;
+    outline: none;
+}

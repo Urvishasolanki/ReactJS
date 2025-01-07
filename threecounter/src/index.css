@@ -1,0 +1,39 @@
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+.maincard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  border: 2px solid black;
+}
+.card{
+  height: 100%;
+  border: 1px solid red;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.cutr2{
+  height: 100%;
+  border: 1px solid blue;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cutr3{
+  height: 100%;
+  border: 2px solid pink;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
