@@ -1,0 +1,36 @@
+
+.main{
+    height: 100vh;
+    width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column-reverse;
+     gap: 20px;
+    
+}
+.main button{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: palevioletred;
+}
+.main button:hover{
+    background-color: pink;
+    color: white;
+}
+.imgs{
+    height: 400px;
+    width: 400px;
+    border: 1px solid pink;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.imgs img{
+    height: 100%;
+    width: 100%;
+    
+}
