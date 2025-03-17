@@ -30,16 +30,17 @@ function Di(){
     }
     console.log(formData)
     
-    // const handlesubmit=()=>{
-    //     e.preventDefault()
-
-    // }
+    const handlesubmit=()=>{
+        e.preventDefault()
+        
+    }
 
     
     return (
     <div>
         <div className="main"> 
-        <form action="" >
+        <form action="" onSubmit={handlesubmit}>
+            <input type="submit" value="Submit"/>
             <input type="text" name="name" placeholder="Enter name"  onChange={handlechange}/>
             <input type="text" name="class" placeholder="Enter class" onChange={handlechange}/>
             <input type="text" name = "email" placeholder="Enter Email" onChange={handlechange}/>
@@ -50,7 +51,6 @@ function Di(){
             }
            
         <input type="button"  value="add" onClick={handleadd}/> 
-        
         </form>
         </div>
     </div>

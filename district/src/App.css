@@ -1,0 +1,40 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.nav{
+  height:87px;
+  width: 100%;
+  border: 1px solid black;
+  padding: 20px 16px;
+  display: flex;
+}
+.navc1{
+  height: 95%;
+  width: 10%;
+  border: 1px solid black;
+}
+.navc2{
+  height: 95%;
+  width: 80%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navc2 .nav2c2c1,.nav2c2c2,.nav2c2c3{
+  height: 100%;
+  width: 29%;
+  border: 1px solid black;
+  border-radius:10%;
+}
+.navc2 ul{
+  display: flex;
+  list-style:none;
+}
+.navc3{
+  height: 95%;
+  width: 10%;
+  border: 1px solid black;
+}
